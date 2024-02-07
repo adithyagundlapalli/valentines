@@ -1,1 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #4d0013;
+}
 
+.container {
+  margin: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container img {
+  width: 400px;
+}
+
+.button {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: solid 4px #80112d;
+  background-color: #e1e1e1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.yes {
+  margin-right: 200px;
+}
+
+.no {
+  display: block;
+  position: absolute;
+}

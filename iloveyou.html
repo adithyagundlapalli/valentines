@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I Love You</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Pangolin"
+    />
     <style>
       body {
         margin: 0;
         padding: 0;
         background: #4d0013;
+        font-family: "Pangolin";
       }
 
       .container {
@@ -61,7 +66,7 @@
       .pic2 {
         transform: rotate(-90deg);
         margin-top: 10px;
-        width: 150px;
+        width: 140px;
         height: 240px;
       }
 
@@ -74,10 +79,21 @@
       #run{
         background-color: #80112d;
         border-radius: 30px;
+        border: none;
+        box-shadow: 0 5px #666;
         color: white;
         width: 200px;
         font-size: 30px;
         margin-bottom: 30px;
+        cursor: pointer;
+      }
+
+      #run:hover{
+        background-color: rgb(165, 26, 26);
+      }
+      #run:active {
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
       }
 
       @media (max-width:390px){
@@ -141,7 +157,7 @@
       </div>
       <p>
         I can't wait for Valentines! I can't wait to see you! It's been way too
-        long and I know it's going to be so fun. One more thing... YOU ARE MY
+        long and I know we're going to have a great time. Thank you for being patient and understanding. You are the best I could ever ask for! One more thing... YOU ARE MY
         FIRST EVER VALENTINE and will be mine forever!
       </p>
       <button id="run">Click Me!</button>

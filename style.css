@@ -44,4 +44,19 @@ body {
 .no {
   display: block;
   position: absolute;
+  transition: 0.5s;
+}
+
+@media (max-width: 390px) {
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .yes {
+    margin-right: 150px;
+  }
 }

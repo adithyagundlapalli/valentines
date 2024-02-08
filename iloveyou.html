@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Love You</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #4d0013;
+      }
+
+      .container {
+        margin: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+      }
+
+      .container h1 {
+        text-align: center;
+        color: #4d0013; /* Match the background color for contrast */
+      }
+
+      .container p {
+        text-align: center;
+        line-height: 1.5;
+        font-size: 18px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px; /* Adjust the gap between images */
+        margin-right: 40px;
+        margin-left: 30px;
+      }
+
+      img {
+        border: solid 4px;
+      }
+
+      .container-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .pic1 {
+        width: 200px;
+        height: 400px;
+        margin-top: 40px;
+      }
+
+      .pic2 {
+        transform: rotate(-90deg);
+        margin-top: 10px;
+        width: 150px;
+        height: 240px;
+      }
+
+      .pic3 {
+        margin-top: 10px;
+        width: 200px;
+        height: 150px; /* Adjust the top margin for better spacing */
+      }
+
+      #run{
+        background-color: #4d0013;
+        border-radius: 30px;
+        color: white;
+        width: 200px;
+        font-size: 30px;
+        margin-bottom: 30px;
+      }
+
+      @media (max-width:390px){
+
+        .container{
+          margin-left: 10%;
+          margin-right: 10%;
+        }
+        .container-img{
+          display: none;
+        }
+
+        .pic1 {
+        width: 200px;
+        height: 400px;
+        margin-top: 10px;
+      }
+        
+        .container p {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      
+
+
+        .container p {
+        text-align: justify;
+
+      }
+    }
+    </style>
+
+    
+    
+
+
+  </head>
+  <body>
+    <div id="world" class="container">
+      <h1>I LOVE YOU MILI BHANDARI!</h1>
+      <div class="img">
+        <img class="pic1" src="assets/pic1.jpeg" alt="" />
+        <div class="container-img">
+          <img class="pic2" src="assets/pic2.jpeg" alt="" />
+          <img class="pic3" src="assets/pic3.jpeg" alt="" />
+        </div>
+      </div>
+      <p>
+        I can't wait for Valentines! I can't wait to see you! It's been way too
+        long and I know it's going to be so fun. One more thing... YOU ARE MY
+        FIRST EVER VALENTINE and will be mine forever!
+      </p>
+      <button id="run">Click Me!</button>
+
+      <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+      <script src="confetti.js"></script>
+      
+  
+  </body>
+</html>

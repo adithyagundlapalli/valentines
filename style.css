@@ -32,7 +32,8 @@ body {
   height: 40px;
   border-radius: 10px;
   border: solid 4px #80112d;
-  background-color: #e1e1e1;
+  background-color: #80112d;
+  color: white;
   font-weight: bold;
   cursor: pointer;
 }
